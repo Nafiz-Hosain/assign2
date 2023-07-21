@@ -1,5 +1,5 @@
 /* font import link */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap");
 /* font import link End */
 
 /* icons
@@ -15,130 +15,271 @@
     font-family: 'Work Sans', sans-serif;
 */
 
-*{  
-    margin: 0;
-    padding: 0;
-    font-family: 'Work Sans', sans-serif;
-    list-style: none;
-    text-decoration: none;
-    
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-block: 38px;
-
-    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 38px;
 }
-.nav_icon{
-    display: flex;
-    align-items: center;
-    gap: 20px ;
+.nav_icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-.nav_menu{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .nav_menu_items > ul {
-    display: flex;
-    align-items: center;
-    gap: 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
 .follow_items > ul {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.follow_items{
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    padding: 17px 24px;
+.follow_items {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 17px 24px;
 }
 
 /* .nav_icon{
 
 } */
-.nav_icon h3{
-    text-align: center; 
-    font-family: Work Sans;
-    font-size: 45px;
-    font-weight: 700;
-    
+.nav_icon h3 {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
 }
-.nav_icon h3 span{
-    color: #FF42A5;
-    
+.nav_icon h3 span {
+  color: #ff42a5;
 }
-nav ul li a{
-    color: #3C354F;
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 18px;
-    font-weight: 500;
+nav ul li a {
+  color: #3c354f;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-
-.nav_yticon{
-    color: red;
+.nav_yticon {
+  color: red;
 }
-.nav_tiktokicon{
-    color: #08FFF9 #F00044 #000000;
+.nav_tiktokicon {
+  color: #08fff9 #f00044 #000000;
 }
-.header_section{
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+.header_section {
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-.header{
-    margin: 0 240px;
-
+.header {
+  padding: 0 240px;
 }
 
 /* banner section start */
-
 
 /* banner icons
     <i class="fa-regular fa-circle-play"></i>
     <i class="fa-regular fa-arrow-down-to-line"></i>
     <i class="fa-light fa-user-group"></i>
 */
-.banner_text{
-
+.banner_section {
 }
-.banner_text h2{}
-.banner_text h1 span{}
-.banner_text p{}
-.banner_text p i{}
-.banner_text button{}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 240px;
+
+  background-image: url(../images/Group\ 14.png);
+  background-repeat: no-repeat;
+}
+.banner_text {
+}
+.banner_text h2 {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner_text h1 {
+  font-family: Work Sans;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner_text p {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+  margin-top: 24px;
+  margin-bottom: 17px;
+}
+.banner_text p i {
+  color: #ff42a5;
+}
+.banner_text button {
+  color: #fff;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  border: none;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  margin-top: 40px;
+  margin-right: 24px;
+}
+.banner_text button a {
+  font-weight: 600;
+  font-family: Work Sans;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.banner_image img {
+  width: 100%;
+}
 /* banner section End */
 
+/* we are gamer section start */
+
+.we_are_gamer {
+  padding: 0 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  padding-block: 95px;
+}
+.we_are_gamer_text {
+  text-align: right;
+  
+}
+.we_are_gamer_text h3 {
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.we_are_gamer_text p {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  line-height: 30px;
+  max-width: 520px;
+}
+.we_are_gamer_text button {
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  border: none;
+  margin-top: 32px;
+}
+.we_are_gamer_text button a {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.we_are_gamer_text h6 {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px; /* 187.5% */
+  margin-top: 24px;
+}
+.we_are_gamer_text h6 span {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+/* we are gamer section End */
 
 /* responsive css start */
 
 @media screen and (max-width: 425px) {
-    section{
-        display: flex;
-        justify-content: center;
-    }
-    nav,.nav_menu,.nav_menu_items>ul{
-        
-        flex-direction: column;
-        
-    }
-    .nav_menu,nav{
-        gap: 62px;
-    }
-    .nav_menu_items > ul{
-        gap: 36px;
-    }
-    .follow_items{
-        min-width: 200px;
-        
-    }
-   
-    
+  section {
+    display: flex;
+    justify-content: center;
+  }
+  nav,
+  .nav_menu,
+  .nav_menu_items > ul {
+    flex-direction: column;
+  }
+  .header,
+  .banner {
+    padding: 0;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner_image img {
+    width: 100vw;
+  }
+  .banner_text {
+    padding-block: 130px;
+    background-image: url(../images/Group\ 14.png);
+  }
+  .nav_menu,
+  nav {
+    gap: 62px;
+  }
+  .nav_menu_items > ul {
+    gap: 36px;
+  }
+  .follow_items {
+    min-width: 200px;
+  }
+  .we_are_gamer{
+    flex-direction: column;
+    padding: 0;
+  }
+  .we_are_gamer_image img{
+    width: 100vw;
+  }
+  .we_are_gamer_text{
+    text-align: center;
+  }
+  .we_are_gamer_text h6{
+    margin-top: 60px;
+  }
 }
 /* responsive css start */
-
