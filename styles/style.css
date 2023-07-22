@@ -3,13 +3,17 @@
 /* font import link End */
 
 /* icons
+    <i class="fa-brands fa-twitter"></i>
     <i class="fa-brands fa-facebook"></i>
     <i class="fa-brands fa-youtube"></i>
-    <i class="fa-brands fa-tiktok"></i>
-    <i class="fa-brands fa-twitter"></i>
     <i class="fa-brands fa-linkedin-in"></i>
     <i class="fa-brands fa-instagram"></i>
     <i class="fa-brands fa-apple"></i>
+
+    <i class="fa-brands fa-tiktok"></i>
+    
+    
+    
 */
 /*  font family =
     font-family: 'Work Sans', sans-serif;
@@ -96,8 +100,8 @@ nav ul li a {
     <i class="fa-regular fa-arrow-down-to-line"></i>
     <i class="fa-light fa-user-group"></i>
 */
-.banner_section {
-}
+/* .banner_section {
+} */
 .banner {
   display: flex;
   justify-content: space-between;
@@ -107,8 +111,8 @@ nav ul li a {
   background-image: url(../images/Group\ 14.png);
   background-repeat: no-repeat;
 }
-.banner_text {
-}
+/* .banner_text {
+} */
 .banner_text h2 {
   color: #0b0223;
   font-family: Work Sans;
@@ -179,7 +183,6 @@ nav ul li a {
 }
 .we_are_gamer_text {
   text-align: right;
-  
 }
 .we_are_gamer_text h3 {
   font-family: Work Sans;
@@ -225,14 +228,261 @@ nav ul li a {
   color: #534c64;
   font-family: Work Sans;
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 45px;
 }
 
 /* we are gamer section End */
 
-/* responsive css start */
+/* online game video start */
+.online_game_videos {
+  padding: 0 240px;
+  padding-block: 120px;
+}
+.onlin_game_video_title {
+  text-align: center;
+}
+.onlin_game_video_title h2 {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+}
+.onlin_game_video_title h2 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+}
+.onlin_game_video_title p {
+  color: #534c64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+.online_game_video_card-items {
+  display: flex;
+  justify-content: space-between;
+}
+.card_item {
+  max-width: 342px;
+}
+/* .card_item p {
+} */
+/* online game video End */
+
+/* play instant section start  */
+
+.play_instant {
+  padding: 0 240px;
+  margin-bottom: 120px;
+}
+.play_instant_items {
+  display: flex;
+  justify-content: space-between;
+}
+.play_instant_text {
+  margin-top: 216px;
+}
+.play_instant_text h2 {
+  text-align: right;
+  max-width: 341px;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  margin-bottom: 24px;
+}
+.play_instant_text h2 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play_instant_text p {
+  text-align: right;
+  max-width: 353px;
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.relative_image {
+  position: relative;
+  top: -250px;
+  right: 150px;
+}
+
+/* play instant section End */
+
+/* game category section start */
+.game_category {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  padding: 120px 240px;
+}
+
+/* .grid_container{
+  
+} */
+
+.gg {
+  display: grid;
+
+  grid-template-columns: repeat(10, 1fr);
+
+  grid-template-areas:
+    "item-1 item-1 item-2 item-2 item-3 item-3 item-4 item-4 item-5 item-5"
+    ". item-6 item-6 item-7 item-7 item-8 item-8 item-9 item-9 . ";
+
+  row-gap: 28px;
+}
+
+.item-1 {
+  grid-area: item-1;
+}
+.item-2 {
+  grid-area: item-2;
+}
+.item-3 {
+  grid-area: item-3;
+}
+.item-4 {
+  grid-area: item-4;
+}
+.item-5 {
+  grid-area: item-5;
+}
+.item-6 {
+  grid-area: item-6;
+}
+.item-7 {
+  grid-area: item-7;
+}
+.item-8 {
+  grid-area: item-8;
+}
+.item-9 {
+  grid-area: item-9;
+}
+
+/* .game_category ul {
+  
+} */
+
+.hover:hover {
+  border: 2px solid #ff42a5;
+  transition: 0.1s;
+}
+.hover a:hover {
+  color: #ff42a5;
+  transition: 0.1s;
+}
+.item-1,
+.it {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  border-radius: 50px;
+
+  border-radius: 50px;
+  background: #fff;
+}
+.item-1 img,
+.it1 img {
+  padding: 10px;
+}
+.item-1 a,
+.it2 a {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+
+  padding: 28px 20px 28px 0px;
+}
+/* game category section End */
+
+/* footer section Start*/
+footer {
+  padding-block: 120px;
+  background: #0b0223;
+}
+.footer_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.footer_title h3 {
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer_title h3 span {
+  color: #ff42a5;
+}
+.footer_menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #fff;
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 600;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+.footer_icons {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.footer_icons i {
+  font-size: 40px;
+}
+.footer_alt {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+small {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+
+  font-weight: 500;
+}
+/* responsive css End */
 
 @media screen and (max-width: 425px) {
   section {
@@ -256,7 +506,7 @@ nav ul li a {
   }
   .banner_text {
     padding-block: 130px;
-    background-image: url(../images/Group\ 14.png);
+    /* background-image: url(../images/Group\ 14.png); */
   }
   .nav_menu,
   nav {
@@ -268,18 +518,114 @@ nav ul li a {
   .follow_items {
     min-width: 200px;
   }
-  .we_are_gamer{
+  .we_are_gamer {
     flex-direction: column;
     padding: 0;
   }
-  .we_are_gamer_image img{
+  .we_are_gamer_image img {
     width: 100vw;
   }
-  .we_are_gamer_text{
+  .we_are_gamer_text {
     text-align: center;
   }
-  .we_are_gamer_text h6{
+  .we_are_gamer_text h6 {
     margin-top: 60px;
+  }
+  .online_game_videos,
+  .play_instant {
+    padding: 0px 0px;
+  }
+  .online_game_video_card-items {
+    align-items: center;
+    flex-direction: column;
+  }
+  .card_item p {
+    margin-top: 14px;
+    margin-bottom: 40px;
+  }
+  .onlin_game_video_title {
+    margin-top: 50px;
+    padding-inline: 20px;
+  }
+  /* .onlin_game_video_title p {
+  } */
+  .play_instant {
+    margin-bottom: 0;
+  }
+  .play_instant_items {
+    flex-direction: column;
+  }
+  .play_instant_image {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .play_instant_image img {
+    max-width: 80%;
+  }
+  .relative_image img {
+    width: 30%;
+  }
+  .relative_image {
+    position: relative;
+    top: -100px;
+  }
+  .play_instant_text {
+    margin-top: 0;
+    margin: 0 auto;
+  }
+  .play_instant_text > h2 {
+    text-align: center;
+  }
+  .play_instant_text p {
+    text-align: center;
+  }
+  .game_category {
+    padding: 0;
+  }
+  .gg {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "item-1 item-1 item-2 item-2 item-3 item-3"
+      "item-4 item-4 item-5 item-5 item-6 item-6"
+      "item-7 item-7 item-8 item-8  item-9 item-9";
+  }
+
+  .item-1 a,
+  .it2 a {
+    font-size: 14px;
+  }
+  .item-1 img,
+  .it1 img {
+    padding: 5px;
+  }
+  .hover:hover {
+    border: 2px solid #ff42a5;
+    transition: 0.1s;
+  }
+  .hover a:hover {
+    color: #ff42a5;
+    transition: 0.1s;
+  }
+  footer {
+    padding-block: 0px;
+    padding-top: 80px;
+  }
+  .footer_menu {
+    flex-wrap: wrap;
+    row-gap: 35px;
+  }
+  .footer_icons {
+    gap: 25px;
+    margin-top: 60px;
+  }
+  .footer_alt {
+    gap: 10px;
+    margin-top: 60px;
+  }
+  small {
+    margin-top: 65px;
+    margin-bottom: 80px;
   }
 }
 /* responsive css start */
